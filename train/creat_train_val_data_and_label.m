@@ -6,7 +6,7 @@ DataSize = [ 256, 256, 207 ];
 PatchSize = [ 4, 4, 4 ];
 PatchStep = [ 1, 1, 1 ];
 
-%% read training images
+%% read training images 
 MAP1_Path = 'simulatedHRRT_subject04_10_noise_1_GS_beta_0.0015_it10_subset16.i';
 Fid = fopen( MAP1_Path, 'rb' );
 FileData = fread( Fid, inf, 'float' );
@@ -29,7 +29,7 @@ Phantom_Data  = reshape( FileData, DataSize );
 
 fclose( 'all' );
 
-%% Generate training and validating label
+%% Generate training and validating label 
 % calculate maximum intensity
 max_train = max( MAP1_Data(:) );                                            
 
@@ -67,7 +67,7 @@ ValLab = remove_dc( ValL, 'columns' );
 
 clear PatData 
 
-%% Generate training and validating data
+%% Generate training and validating data 
 % MAP 1
 MAP1_Data  = MAP1_Data( 44:214, 35:230, 20 : 194 ) ./ max_train;            
 
