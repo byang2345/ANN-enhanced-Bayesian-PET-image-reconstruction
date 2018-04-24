@@ -6,7 +6,7 @@ This repository contains the caffe version code for the paper Artificial Neural 
 
 1. Data
 
-* Training images including 3 MAP reconstructed brain PET image and 1 phantom image of one subject;
+* Training images, including 3 MAP reconstructed brain PET image and 1 phantom image of one subject;
 * Testing images, which are 3 MAP reconstructions of another subject.
 
 2. Training
@@ -21,6 +21,10 @@ using “create_train_data_and_label.m”;
 
 * ANN model: “deploy.prototxt”;
 * Applying the trained model to process testing images with “MAP_ANN_testing.m”.
+
+## Note
+
+1. Image file size: 256 x 256 x 207 x float
 
 ## Citation
 
