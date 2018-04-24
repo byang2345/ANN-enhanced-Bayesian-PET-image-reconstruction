@@ -120,4 +120,4 @@ ValLab=mapminmax.apply(ValLab,settings1);
 [TraData_add,settings2] = mapminmax(TraData_add);
 ValData_add=mapminmax.apply(ValData_add,settings2);
 
-save train_validate_data_label TraData_add ValData_add TraLab ValLab settings1 settings2
+save train_val_data_label TraData_add ValData_add TraLab ValLab settings1 settings2
