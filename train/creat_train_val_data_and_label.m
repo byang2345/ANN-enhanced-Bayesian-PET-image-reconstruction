@@ -6,7 +6,7 @@ DataSize = [ 256, 256, 207 ];
 PatchSize = [ 4, 4, 4 ];
 PatchStep = [ 1, 1, 1 ];
 
-%% read training images 
+% % read training images 
 MAP1_Path = 'simulatedHRRT_subject04_10_noise_1_GS_beta_0.0015_it10_subset16.i';
 Fid = fopen( MAP1_Path, 'rb' );
 FileData = fread( Fid, inf, 'float' );
