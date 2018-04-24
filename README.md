@@ -10,12 +10,12 @@ This repository contains the caffe version code for the paper Artificial Neural 
 * Testing images, which are 3 MAP reconstructions of another subject.
 * Image size: 256 x 256 x207
 
-2. Training
+2. Training and validating
 
-* Generating training data consisting of 3D image patches extracted from training images, and the corresponding label 
-using “create_train_data_and_label.m”;
-* Writing data to HDF5 using “create_train_hdf5.m”;
-* ANN model: “nonlinear_train.prototxt”;
+* Generating training and validating data consisting of 3D image patches extracted from training images, and the corresponding label 
+using “create_train_val_data_and_label.m”;
+* Writing data to HDF5 using “create_train_hdf5.m” and "create_val_hdf5.m";
+* ANN model: “nonlinear_train_val.prototxt”;
 * Training parameters: “solver.prototxt”.
 
 3. Testing
