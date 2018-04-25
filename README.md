@@ -7,7 +7,7 @@ This repository contains the caffe version code for the paper Artificial Neural 
 1. Data
 
 * Training images, including 3 MAP reconstructed brain PET image of one subject at one count level and 1 corresponding phantom image;
-* Testing images, which are 3 MAP reconstructions of another subject.
+* Testing images, which are 3 MAP reconstructions of another subject at another count level.
 * Image size: 256 x 256 x207
 
 2. Training and validating
