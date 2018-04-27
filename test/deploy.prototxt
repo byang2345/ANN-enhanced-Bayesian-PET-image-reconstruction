@@ -1,4 +1,4 @@
-name: "LogisticRegressionNet"
+name: "NonlinearRegressionNet"
 layer {
   name: "data"
   type: "Input"
@@ -31,7 +31,7 @@ layer {
   }
 }
 layer {
-  name: "relu1"
+  name: "TanH1"
   type: "TanH"
   bottom: "fc1"
   top: "fc1"
