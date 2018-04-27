@@ -1,4 +1,4 @@
-name: "LogisticRegressionNet"
+name: "NonlinearRegressionNet"
 layer {
   name: "data"
   type: "HDF5Data"
@@ -8,7 +8,7 @@ layer {
     phase: TRAIN
   }
   hdf5_data_param {
-    source: "models/yb_PET_model/data/list_train.txt"
+    source: "Path to/data/list_train.txt"
     batch_size: 1000 
   }
 }
@@ -21,7 +21,7 @@ layer {
     phase: TEST
   }
   hdf5_data_param {
-    source: "models/yb_PET_model/data/list_val.txt"
+    source: "Path to/data/list_val.txt"
     batch_size: 1000
   }
 }
@@ -51,7 +51,7 @@ layer {
   }
 }
 layer {
-  name: "relu1"
+  name: "TanH1"
   type: "TanH"
   bottom: "fc1"
   top: "fc1"
