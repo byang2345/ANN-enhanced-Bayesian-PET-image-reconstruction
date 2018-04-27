@@ -1,4 +1,4 @@
-net: "models/yb_PET_model/nonlinear_train_val.prototxt"
+net: "Path to/nonlinear_train_val.prototxt"
 test_iter: 1000
 test_interval: 1000
 base_lr: 0.01
@@ -10,5 +10,5 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 10000
-snapshot_prefix: "models/yb_PET_model/yb_train_1128_normal10_randoms0930_64"
+snapshot_prefix: "Path/Trained_model"
 solver_mode: CPU
