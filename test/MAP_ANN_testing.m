@@ -122,7 +122,7 @@ end
 RecData = RecData ./ CntData ;
 RecPETData=RecData;
 
-% % store recovered image
+% % save recovered image
 RecImg = RecPETData;
 PETRecPath = 'recovered_PET_test.i';
 Fid = fopen( PETRecPath, 'wb' );
