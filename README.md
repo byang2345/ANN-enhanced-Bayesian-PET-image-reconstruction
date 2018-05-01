@@ -31,3 +31,11 @@ B.Yang, L. Ying, and J. Tang, “Artificial Neural Network
 Enhanced Bayesian PET Image Reconstruction,” DOI 10.1109/TMI.2018.2803681, IEEE
 Transactions on Medical Imaging, 2018.
 
+## Note 
+
+Pleas contact us to access the training and testing image files as they are too large to upload.
+
+## Contact
+jingtang at gmail dot com
+byang2345 at oakland dot edu
+Any discussions, suggestions, and questions are welcome.
