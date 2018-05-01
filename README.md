@@ -36,6 +36,9 @@ Transactions on Medical Imaging, 2018.
 Pleas contact us to access the training and testing image files as they are too large to upload.
 
 ## Contact
+
 jingtang at gmail dot com
+
 byang2345 at oakland dot edu
+
 Any discussions, suggestions, and questions are welcome.
