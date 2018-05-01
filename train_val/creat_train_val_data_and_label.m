@@ -29,7 +29,7 @@ Phantom_Data  = reshape( FileData, DataSize );
 
 fclose( 'all' );
 
-% % Generate training and validating label 
+% % generate training and validating label 
 % calculate maximum intensity
 max_train = max( MAP1_Data(:) );                                            
 
@@ -67,7 +67,7 @@ ValLab = remove_dc( ValL, 'columns' );
 
 clear PatData 
 
-% % Generate training and validating data 
+% % generate training and validating data 
 % MAP 1
 MAP1_Data  = MAP1_Data( 44:214, 35:230, 20 : 194 ) ./ max_train;            
 
